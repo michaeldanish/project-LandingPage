@@ -1,0 +1,195 @@
+body {
+  font-family: sans-serif, Courier, monospace;
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header,
+.overview {
+  background: #01183a;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 64px;
+}
+
+#image1 {
+  width: 300px;
+  height: auto;
+}
+
+#image2 {
+  width: 200px;
+  height: auto;
+  border: 2px solid #01183a;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 32px;
+}
+
+.leftside {
+  text-align: start;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.rightside {
+  color: white;
+  font-weight: 300;
+}
+
+.overview {
+  padding: 32px 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.overviewLeft {
+  display: flex;
+  flex-direction: column;
+  padding-right: 32px;
+}
+
+.p1,
+.p2 {
+  text-align: left;
+  padding-bottom: 16px;
+}
+
+.p1 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.p2 {
+  font-size: 16px;
+}
+
+#button1 {
+  display: block;
+  text-align: center;
+  width: 120px;
+  border-color: #fd5e53;
+  background: #fc9c54;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.explore,
+.whatToDo {
+  background: #ffe373;
+  color: #152852;
+  justify-content: center;
+  padding: 16px 64px;
+  font-weight: 600;
+}
+
+.explore {
+  font-size: 24px;
+}
+
+.whatToDo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+  gap: 32px;
+}
+
+.text {
+  padding-top: 8px;
+}
+
+.quote {
+  background: #fd5e53;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.quoteText {
+  text-align: left;
+  padding-top: 96px;
+  padding-bottom: 8px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quoteSubtext {
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 64px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.connect {
+  background-color: #fc9c54;
+  margin: 64px 128px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.connectLeft {
+  color: #152852;
+  text-align: left;
+  padding-right: 24px;
+}
+
+.connectText {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.connectSubtext {
+  font-size: 14px;
+}
+
+#button2 {
+  display: block;
+  text-align: center;
+  width: 120px;
+  border-color: white;
+  background-color: #4b3d60;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  /* position: fixed; */
+  background: #01183a;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+}
